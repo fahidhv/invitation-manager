@@ -504,7 +504,7 @@ const App = () => {
   return (
     <div className="min-h-screen bg-gray-100 p-4 sm:p-8">
       <header className="mb-8">
-        <h1 className="text-4xl font-extrabold text-gray-900">Event Manager</h1>
+        <h1 className="text-4xl font-extrabold text-gray-900">Free Event/Invitation Manager</h1><h2 className="text-4xl font-extrabold text-gray-900">by Wokeio</h2>
         <p className="text-gray-500 mt-1">
             {/* This will now always show 'Local Data' */}
             {USE_FIRESTORE ? 'Online Data (Firestore)' : 'Local Data (Browser Storage)'} | User ID:
